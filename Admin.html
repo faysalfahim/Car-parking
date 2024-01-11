@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="popupstyle.css">
+        </head>
+    <title>Admin Control Page</title>
+    <body>
+        
+        <!--<input type="submit" value="Add new slot" onclick="addNewSlot()">-->
+        <!--<input type="submit" value="Back" id = "back" onclick="goBack()">-->
+        <!--<button class="back-button" onclick="goBack()">Back</button>-->
+        <button class="open-button" onclick="openForm()">Add New Slot</button>
+        <div class="slotCards" id="borobottle">
+        </div>
+<div class="form-popup" id="myForm">
+  <form action="saveSlot()" class="form-container">
+    <h1>Slot Info</h1>
+
+    <label for="slotId"><b>Slot Id</b></label>
+    <input type="text" placeholder="Enter Slot Id" name="slotId" required>
+
+    <label for="priceHour"><b>Price</b></label>
+    <input type="text" placeholder="Enter Price per Hour" name="priceHour" required>
+
+    <!-- <input type="button" class="btn" onclick="saveSlot()" value="Submit"> -->
+    <input type="button" class="btn" onclick="saveSlot()" value="Submit">
+    <input type="button" class="btn cancel" onclick="closeForm()" value="Close">
+  </form>
+</div>
+
+        <script src="./script.js"></script>
+    </body>
+
+</html>
