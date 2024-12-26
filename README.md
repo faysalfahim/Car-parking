@@ -12,20 +12,26 @@ Car-parking is a project aimed at streamlining the management of car parking lot
 
 **Features**
 
-Admin Interface: Manage parking slots, view statistics, and configure settings.
-Gatekeeper Interface: Record vehicle entries and exits, view current parking status.
-Real-time Updates: Instant updates on parking space availability.
-User Authentication: Secure login for administrators and gatekeepers.
-Responsive Design: Accessible on both desktop and mobile devices.
+1. Admin Interface: Manage parking slots, view statistics, and configure settings.
+
+2. Gatekeeper Interface: Record vehicle entries and exits, view current parking status.
+
+3. Real-time Updates: Instant updates on parking space availability.
+
+4. User Authentication: Secure login for administrators and gatekeepers.
+
+5. Responsive Design: Accessible on both desktop and mobile devices.
 
 **Installation**
-
+```bash
 Clone the repository:
-
+```
+```bash
 git clone https://github.com/faysalfahim/Car-parking.git
-
+```
+```bash
 cd Car-parking
-
+```
 Open the main HTML file:
 
 Open index.html in your preferred web browser.
